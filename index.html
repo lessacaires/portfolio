@@ -13,7 +13,13 @@
 </head>
 <body>
     <div class="container">
-        <header>
+        <div class="hamburguer">
+            <div class="line" id="line1"></div>
+            <div class="line" id="line2"></div>
+            <div class="line" id="line3"></div>
+            <span>fechar</span>
+        </div>
+        <header id="home">
             <div class="img-wrapper">
                 <img src="imagens/bg.jpg" alt="">
             </div>
@@ -23,6 +29,192 @@
                 <button>Saiba mais</button>
             </div>            
         </header>
+        <aside class="sidebar show-menu">
+            <nav>
+                <ul class="menu">
+                    <li class="menu-item"><a href="#" class="menu-link">Home</a></li>
+                    <li class="menu-item"><a href="#conhecimentos" class="menu-link">Conhecimento</a></li>
+                    <li class="menu-item"><a href="#projetos" class="menu-link">Projetos</a></li>
+                    <li class="menu-item"><a href="#contato" class="menu-link">Contato</a></li>
+                    <li class="menu-item"><a href="#orcamento" class="menu-link">Orçamento</a></li>
+                </ul>
+            </nav>
+            <div class="social-media">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-github-alt"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+        </aside>
+        <section class="sessao-conhecimentos" id="conhecimentos">
+            <div class="sessao-header">
+                <h1>Conhecimentos</h1>
+            </div>
+            <div class="conhecimentos">               
+                <div class="conhecimento">
+                    <div class="conhecimento-header">
+                        <i class="fab fa-html5"></i>
+                        <h3>HTML</h3>
+                    </div>
+                    <div class="conhecimento-text">
+                        <p>HTML5, sigla para Hypertext Markup Language, é uma linguagem de marcação de hipertexto para apresentar e estruturar o conteúdo na web. Ela traz novas funções como as tags <video>, <audio> e elemento <canvas> e será o novo padrão para HTML, XHTML e HTML DOM. Com o HTML5, por exemplo, é possível ver vídeos do YouTube sem o Flash.</p>
+                    </div>
+                </div>
+                <div class="conhecimento">
+                    <div class="conhecimento-header">
+                        <i class="fab fa-css3-alt"></i>
+                        <h3>CSS</h3>
+                    </div>
+                    <div class="conhecimento-text">
+                        <p>CSS3 é a terceira mais nova versão das famosas Cascading Style Sheets (ou simplesmente CSS), pela qual se define estilos para um projeto web (página de internet). ... Assim, o CSS3 facilitará o trabalho dos profissionais de front-end e também a utilização de sites pelos usuários.</p>
+                    </div>
+                </div>
+                <div class="conhecimento">
+                    <div class="conhecimento-header">
+                        <i class="fas fa-pencil-alt"></i>
+                        <h3>Design</h3>
+                    </div>
+                    <div class="conhecimento-text">
+                        <p>O design [dezaine], desenho industrial, projetismo ou projética é a idealização, criação, desenvolvimento, configuração, concepção, elaboração e especificação de produtos, normalmente produzidos industrialmente ou por meio de sistema de produção em série que demanda padronização dos componentes e desenho normalizado. </p>
+                    </div>
+                </div>
+                <div class="conhecimento">
+                    <div class="conhecimento-header">
+                        <i class="fab fa-js"></i>
+                        <h3>JavaScript</h3>
+                    </div>
+                    <div class="conhecimento-text">
+                        <p>Javascript é a linguagem mais popular da programação, segundo o estudo do site StackOverFlow. E, desde 2013, a linguagem criada pelo programador Brendan Eich há duas décadas se mantém no topo do ranking.</p>
+                    </div>
+                </div>
+                <div class="conhecimento">
+                    <div class="conhecimento-header">
+                        <i class="fab fa-bootstrap"></i>
+                        <h3>Bootstrap</h3>
+                    </div>
+                    <div class="conhecimento-text">
+                        <p>Bootstrap é um framework web com código-fonte aberto para desenvolvimento de componentes de interface e front-end para sites e aplicações web usando HTML, CSS e JavaScript, baseado em modelos de design para a tipografia, melhorando a experiência do usuário em um site amigável e responsivo.</p>
+                    </div>
+                </div>
+                <div class="conhecimento">
+                    <div class="conhecimento-header">
+                        <i class="fab fa-github"></i>
+                        <h3>Git & Github</h3>
+                    </div>
+                    <div class="conhecimento-text">
+                        <p>GitHub é uma plataforma de hospedagem de código-fonte e arquivos com controle de versão usando o Git. Ele permite que programadores, utilitários ou qualquer usuário cadastrado na plataforma contribuam em projetos privados e/ou Open Source de qualquer lugar do mundo.</p>
+                    </div>
+                </div>
+                <div class="conhecimentos-img-wrapper">
+                    <img src="imagens/conhecimentos.png" alt="imagem conhecimento">
+                </div>
+            </div>
+        </section>
+        <section class="sessao-projetos" id="projetos">
+            <div class="sessao-header">
+                <h1>Projetos</h1>
+            </div>
+            <div class="projetos">
+                <div class="card">
+                    <div class="card-img-wrapper">
+                        <img src="imagens/proj1.jpg" alt="Imagem do projeto ToDo">
+                    </div>
+                    <div class="card-info">
+                        <h2>ToDo List</h2>
+                        <h3>Javascript</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis facilis delectus officiis maiores exercitationem blanditiis laudantium, magni vel, natus corrupti ex assumenda fugit optio eius quis illum. Quia, incidunt recusandae.</p>
+                        <button class="btn">Saiba Mais</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-img-wrapper">
+                        <img src="imagens/proj2.jpg" alt="imagem do projeto Maratona">
+                    </div>
+                    <div class="card-info">
+                        <h2>Maratona</h2>
+                        <h3>HTML, CSS</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste voluptas, obcaecati, dolore repudiandae sapiente at enim recusandae rem assumenda nulla veniam voluptatum provident corporis! Veritatis consequuntur sunt minus libero laboriosam.</p>
+                        <button class="btn">Saiba Mais</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-img-wrapper">
+                        <img src="imagens/proj3.jpg" alt="imagem do projeto Casa Bela">
+                    </div>                
+                    <div class="card-info">
+                        <h2>Casa Bela</h2>
+                        <h3>HTML</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium repellendus suscipit cum ducimus vel et tempora quasi a id inventore fugit ipsa amet alias, hic autem nulla? Necessitatibus, reiciendis nostrum?</p>
+                        <button class="btn">Saiba Mais</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="sessao-contato" id="contato">
+            <div class="contato-wrapper">
+                <div class="contato-left"></div>
+                <div class="contato-right">
+                    <h1>Contato</h1>
+                    <form>
+                        <div class="input-group">
+                            <input type="text" class="field" id="nome">
+                            <label for="nome" class="field-label">Nome:</label>
+                        </div>
+                        <div class="input-group">
+                            <input type="text" class="field" id="email">
+                            <label for="email" class="field-label">Email:</label>
+                        </div>
+                        <div class="input-group">
+                            <textarea class="field" id="mensagem"></textarea>
+                            <label for="Mensagem" class="field-label">Mensagem:</label>
+                        </div>
+                        <button type="submit" class="btn btn-submit">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <section class="sessao-orcamento" id="orcamento">
+            <div class="orcamento-wrapper">
+                <h1>Faça um orçamento</h1>
+                    <form>
+                        <label for="qtde">Qtde de Páginas:</label>
+                        <input type="number" min="1" name="qtde" id="qtde">
+                        <label for="js">Preciso de um script JS:</label>
+                        <input type="checkbox" name="js" id="js">
+                        <label >Layout:</label>
+                        <div class="group-layout">
+                            <div>
+                                <input type="radio" name="layout" id="layout-sim">
+                                <label for="layout-sim">Preciso de um layout</label>
+                            </div>
+                            <div>
+                                <input type="radio" name="layout" id="layout-nao">
+                                <label for="layout-sao">Já tenho um layout</label>
+                            </div>
+                        </div>
+                        <label for="prazo">Prazo:</label>
+                        <input type="range" name="prazo" id="prazo" min="1" max="10">
+                        <label for="" id="preco">Orçamento: R$0,00</label>
+                        <button class="btn btn-orcamento" type="submit">Enviar</button>
+                    </form>
+                </h1>
+            </div>
+        </section>
+        <footer>
+            <div class="footer-content">
+                <p>Copyright &copy 2020, ETECIA DS - Todos os direitos reservados</p>
+            </div>
+            <div class="social-list">
+                <ul>
+                    <li><a href=""><i class="fab fa-facebook"></i></a></li>
+                    <li><a href=""><i class="fab fa-instagram"></i></a></li>
+                    <li><a href=""><i class="fab fa-twitter"></i></a></li>
+                </ul>
+            </div>
+        </footer>
+        <a href="#home" id="link-top">
+            <i class="fas fa-arrow-up"></i>
+        </a>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
